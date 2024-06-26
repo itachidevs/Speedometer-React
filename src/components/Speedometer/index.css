@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-heading {
+  color: #ffff;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.middle-image {
+  width: 50%;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.details-container-heading {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.instruction {
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+.btn {
+  width: 138px;
+  height: 40px;
+  text-align: center;
+  padding: 0.2rem 0.2rem;
+  color: #ffff;
+  background-color: #0b69ff;
+  border-radius: 0.3rem;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.btn-outline {
+  background-color: transparent;
+  color: #cbd5e1;
+  width: 138px;
+  height: 40px;
+  border: 0.05rem solid #94a3b8;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  outline: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 568px) {
+  .container-heading {
+    font-size: 4rem;
+  }
+  .details-container-heading {
+    font-size: 3rem;
+  }
+  .instruction {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
